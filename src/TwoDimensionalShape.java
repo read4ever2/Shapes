@@ -8,8 +8,7 @@
 // import statements
 
 public class TwoDimensionalShape extends Shape {
-  double area;
-  double perimeter;
+  protected double area;
 
   public TwoDimensionalShape() {
     super(2);
@@ -19,68 +18,35 @@ public class TwoDimensionalShape extends Shape {
     return area;
   }
 
-  public double getPerimeter() {
-    return perimeter;
-  }
+  static class Circle extends TwoDimensionalShape {
 
-  static class Circle extends TwoDimensionalShape implements TwoDShape {
-    double radius;
-
-    public Circle() {}
-
-    public void setRadius(double radius) {
-      this.radius = radius;
-    }
-
-    @Override
-    public void calcArea() {
-      area = Math.pow(radius, 2) * Math.PI;
-    }
-
-    @Override
-    public void calcPerimeter() {
-      perimeter = 2 * Math.PI * radius;
+    public Circle(double radius) {
+      super();
+      this.area = Math.pow(radius, 2) * Math.PI;
     }
   }
 
-  static class Square extends TwoDimensionalShape implements TwoDShape {
-    double side;
+  static class Rectangle extends TwoDimensionalShape {
 
-    public void setSide(double side) {
-      this.side = side;
-    }
-
-    @Override
-    public void calcArea() {
-      area = Math.pow(area, 2);
-    }
-
-    @Override
-    public void calcPerimeter() {
-      perimeter = side * 4;
+    public Rectangle(double length, double width) {
+      super();
+      this.area = length * width;
     }
   }
 
-  static class Triangle extends TwoDimensionalShape implements TwoDShape {
-    double base;
-    double height;
+  static class Square extends TwoDimensionalShape {
 
-    public void setBase(double base) {
-      this.base = base;
+    public Square(double side) {
+      super();
+      this.area = Math.pow(side, 2);
     }
+  }
 
-    public void setHeight(double height) {
-      this.height = height;
-    }
+  static class Triangle extends TwoDimensionalShape {
 
-    @Override
-    public void calcArea() {
-      area = 0.5 * base * height;
-    }
-
-    @Override
-    public void calcPerimeter() {
-
+    public Triangle(double base, double height) {
+      super();
+      this.area = base * height * 0.5;
     }
   }
 }

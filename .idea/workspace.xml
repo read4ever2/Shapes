@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf8ba83-1de7-4ff7-877c-13463a873a7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwoDShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeDimensionalShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoDShape.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TwoDimensionalShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoDimensionalShape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -29,7 +31,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -44,13 +48,40 @@
       <option name="presentableId" value="Default" />
       <updated>1603637435956</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1603638922260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603638922260</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1603638986972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603638986972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1725" y="419" key="#com.intellij.ide.util.MemberChooser" timestamp="1603638795878">
+    <state x="1725" y="419" key="#com.intellij.ide.util.MemberChooser" timestamp="1604502414903">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1725" y="419" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1603638795878" />
+    <state x="1725" y="419" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1604502414903" />
+    <state x="370" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604501897549">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="370" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604501897549" />
+    <state x="1549" y="269" key="CommitChangelistDialog2" timestamp="1603638986186">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1549" y="269" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1603638986186" />
     <state x="1799" y="601" key="Github.ShareDialog" timestamp="1603637743882">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -59,5 +90,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1739" y="406" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603637750687" />
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1603638989377">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1603638989377" />
   </component>
 </project>
