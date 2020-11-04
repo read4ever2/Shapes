@@ -81,19 +81,28 @@ public abstract class Shape {
         }
         case "6"-> {
           System.out.println("You have selected Cube\n");
-          System.out.println("What is the length of a side");
+          System.out.println("What is the length of a side?");
           double side = scanner.nextDouble();
           ThreeDimensionalShape.Cube cube=new ThreeDimensionalShape.Cube(side);
           System.out.println("The volume of the Cube is " + cube.getVolume());
         }
         case "7" -> {
           System.out.println("You have selected Cone\n");
-          System.out.println("What is radius");
+          System.out.println("What is the radius?");
           double radius = scanner.nextDouble();
-          System.out.println("What is the height");
+          System.out.println("What is the height?");
           double height = scanner.nextDouble();
           ThreeDimensionalShape.Cone cone=new ThreeDimensionalShape.Cone(radius,height);
-          System.out.println("The volume of the Cube is " + cone.getVolume());
+          System.out.printf("The volume of the Cube is %.2f",cone.getVolume());
+        }
+        case "8" -> {
+          System.out.println("You have selected Cylinder");
+          System.out.println("What is the radius?");
+          double radius = scanner.nextDouble();
+          System.out.println("What is the height?");
+          double height = scanner.nextDouble();
+          ThreeDimensionalShape.Cylinder cylinder = new ThreeDimensionalShape.Cylinder(radius,height);
+          System.out.printf("The volume of the cylinder is %.2f",cylinder.getVolume());
         }
         case "X","x"-> exitLoop = true;
         default -> System.out.println("Invalid Selection. Please select again.");
