@@ -1,4 +1,6 @@
-package shapes;/*
+package shapes;
+
+/*
  * Filename: shapes.Shapes.java
  * Author: Will Feighner
  * Date: 2020 10 25
@@ -112,6 +114,6 @@ public class Shapes {
         default -> System.out.println("Invalid Selection. Please select again.");
       }
     } while (exitLoop);
-    System.out.println("");
+    System.out.println();
   }
 }

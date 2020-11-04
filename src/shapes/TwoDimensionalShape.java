@@ -1,4 +1,6 @@
-package shapes;/*
+package shapes;
+
+/*
  * Filename: shapes.TwoDimensionalShape.java
  * Author: Will Feighner
  * Date: 2020 10 25

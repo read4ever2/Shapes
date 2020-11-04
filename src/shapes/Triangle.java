@@ -11,6 +11,7 @@ package shapes;
 
 class Triangle extends TwoDimensionalShape {
 
+  // Creates Triangle Object
   public Triangle(double base, double height) {
     super();
     this.area = base * height * 0.5;

@@ -1,4 +1,6 @@
-package shapes;/*
+package shapes;
+
+/*
  * Filename: shapes.ThreeDimensionalShape.java
  * Author: Will Feighner
  * Date: 2020 11 04
