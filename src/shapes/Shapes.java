@@ -1,5 +1,5 @@
-/*
- * Filename: Shapes.java
+package shapes;/*
+ * Filename: shapes.Shapes.java
  * Author: Will Feighner
  * Date: 2020 10 25
  * Purpose:
@@ -13,9 +13,9 @@ public class Shapes {
 
   public static void main(String[] args) {
 
-    System.out.println("\n********* Welcome to the Java OO Shapes Program **********\n");
+    System.out.println("\n********* Welcome to the Java OO shapes.Shapes Program **********\n");
 
-    boolean exitLoop = false;
+    boolean exitLoop = true;
     do {
       System.out.println("Select from the menu below:\n");
       System.out.println(
@@ -23,8 +23,8 @@ public class Shapes {
               + "2. Construct a Rectangle\n"
               + "3. Construct a Square\n"
               + "4. Construct a Triangle\n"
-              + "5. Construct a Sphere\n"
-              + "6. Construct a Cube\n"
+              + "5. Construct a shapes.Sphere\n"
+              + "6. Construct a shapes.Cube\n"
               + "7. Construct a Cone\n"
               + "8. Construct a Cylinder\n"
               + "9. Construct a Torus\n"
@@ -38,7 +38,7 @@ public class Shapes {
           System.out.println("You have selected Circle\n");
           System.out.println("What is the radius?");
           double radius = scanner.nextDouble();
-          TwoDimensionalShape.Circle circle = new TwoDimensionalShape.Circle(radius);
+          Circle circle = new Circle(radius);
           System.out.println("The area of the Circle is " + circle.getArea());
         }
         case "2" -> {
@@ -47,15 +47,15 @@ public class Shapes {
           double length = scanner.nextDouble();
           System.out.println("What is the width?");
           double width = scanner.nextDouble();
-          TwoDimensionalShape.Rectangle rectangle =
-              new TwoDimensionalShape.Rectangle(length, width);
+          Rectangle rectangle =
+              new Rectangle(length, width);
           System.out.println("The area of the Rectangle is " + rectangle.getArea());
         }
         case "3" -> {
           System.out.println("You have selected Square\n");
           System.out.println("What is the length of a side?");
           double side = scanner.nextDouble();
-          TwoDimensionalShape.Square square = new TwoDimensionalShape.Square(side);
+          Square square = new Square(side);
           System.out.println("The area of the Square is " + square.getArea());
         }
         case "4" -> {
@@ -64,22 +64,22 @@ public class Shapes {
           double base = scanner.nextDouble();
           System.out.println("What is the height?");
           double height = scanner.nextDouble();
-          TwoDimensionalShape.Triangle triangle = new TwoDimensionalShape.Triangle(base, height);
+          Triangle triangle = new Triangle(base, height);
           System.out.println("The area of the Square is " + triangle.getArea());
         }
         case "5" -> {
-          System.out.println("You have selected Sphere\n");
+          System.out.println("You have selected shapes.Sphere\n");
           System.out.println("What is the radius?");
           double radius = scanner.nextDouble();
-          ThreeDimensionalShape.Sphere sphere = new ThreeDimensionalShape.Sphere(radius);
-          System.out.println("The volume of the Sphere is " + sphere.getVolume());
+          Sphere sphere = new Sphere(radius);
+          System.out.println("The volume of the shapes.Sphere is " + sphere.getVolume());
         }
         case "6" -> {
-          System.out.println("You have selected Cube\n");
+          System.out.println("You have selected shapes.Cube\n");
           System.out.println("What is the length of a side?");
           double side = scanner.nextDouble();
-          ThreeDimensionalShape.Cube cube = new ThreeDimensionalShape.Cube(side);
-          System.out.println("The volume of the Cube is " + cube.getVolume());
+          Cube cube = new Cube(side);
+          System.out.println("The volume of the shapes.Cube is " + cube.getVolume());
         }
         case "7" -> {
           System.out.println("You have selected Cone\n");
@@ -87,8 +87,8 @@ public class Shapes {
           double radius = scanner.nextDouble();
           System.out.println("What is the height?");
           double height = scanner.nextDouble();
-          ThreeDimensionalShape.Cone cone = new ThreeDimensionalShape.Cone(radius, height);
-          System.out.printf("The volume of the Cube is %.2f", cone.getVolume());
+          Cone cone = new Cone(radius, height);
+          System.out.printf("The volume of the shapes.Cube is %.2f", cone.getVolume());
         }
         case "8" -> {
           System.out.println("You have selected Cylinder");
@@ -96,7 +96,7 @@ public class Shapes {
           double radius = scanner.nextDouble();
           System.out.println("What is the height?");
           double height = scanner.nextDouble();
-          ThreeDimensionalShape.Cylinder cylinder = new ThreeDimensionalShape.Cylinder(radius, height);
+          Cylinder cylinder = new Cylinder(radius, height);
           System.out.printf("The volume of the cylinder is %.2f", cylinder.getVolume());
         }
         case "9" -> {
@@ -105,11 +105,13 @@ public class Shapes {
           double majorRadius = scanner.nextDouble();
           System.out.println("What is the Minor Radius?");
           double minorRadius = scanner.nextDouble();
-          ThreeDimensionalShape.Torus torus = new ThreeDimensionalShape.Torus(majorRadius, minorRadius);
+          Torus torus = new Torus(majorRadius, minorRadius);
+          System.out.printf("The volume of the torus is %.2f", torus.getVolume());
         }
-        case "X", "x" -> exitLoop = true;
+        case "X", "x" -> exitLoop = false;
         default -> System.out.println("Invalid Selection. Please select again.");
       }
     } while (exitLoop);
+    System.out.println("");
   }
 }

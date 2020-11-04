@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf8ba83-1de7-4ff7-877c-13463a873a7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Cone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Sphere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Torus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Shapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreeDimensionalShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/ThreeDimensionalShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoDimensionalShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/TwoDimensionalShape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jNH3xEY3uWOXkAHtwlXZfUt54g" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,9 +50,25 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="shapes" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="shapes" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Shapes">
     <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shape" />
+      <option name="MAIN_CLASS_NAME" value="shapes.Shape" />
+      <module name="Shapes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shapes.Shapes" />
       <module name="Shapes" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -47,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Shapes" />
         <item itemvalue="Application.Shape" />
       </list>
     </recent_temporary>
@@ -95,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604510941621</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1604512488826</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604512488826</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -107,14 +144,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1725" y="419" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1604502414903" />
+    <state x="370" y="480" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1604523057314">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="370" y="480" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604523057314" />
+    <state x="350" y="576" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1604522866843">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="350" y="576" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604522866843" />
+    <state x="499" y="628" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604523184516">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="499" y="628" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604523184516" />
+    <state x="423" y="594" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604523059995">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="423" y="594" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1604523059995" />
+    <state x="423" y="548" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog" timestamp="1604523185901">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="423" y="548" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604523185901" />
+    <state x="223" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604512369829">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="223" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604512369829" />
     <state x="370" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604501897549">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="370" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604501897549" />
-    <state x="1549" y="269" key="CommitChangelistDialog2" timestamp="1604510940699">
+    <state x="1549" y="269" key="CommitChangelistDialog2" timestamp="1604512487884">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1549" y="269" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1604510940699" />
+    <state x="1549" y="269" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1604512487884" />
     <state x="1799" y="601" key="Github.ShareDialog" timestamp="1603637743882">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -123,22 +184,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1739" y="406" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603637750687" />
-    <state width="1235" height="400" key="GridCell.Tab.0.bottom" timestamp="1604510346668">
+    <state width="1235" height="400" key="GridCell.Tab.0.bottom" timestamp="1604523060075">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604510346668" />
-    <state width="1235" height="400" key="GridCell.Tab.0.center" timestamp="1604510346667">
+    <state width="1235" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604523060075" />
+    <state width="1235" height="400" key="GridCell.Tab.0.center" timestamp="1604523060074">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604510346667" />
-    <state width="1235" height="400" key="GridCell.Tab.0.left" timestamp="1604510346667">
+    <state width="1235" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604523060074" />
+    <state width="1235" height="400" key="GridCell.Tab.0.left" timestamp="1604523060074">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604510346667" />
-    <state width="1235" height="400" key="GridCell.Tab.0.right" timestamp="1604510346668">
+    <state width="1235" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604523060074" />
+    <state width="1235" height="400" key="GridCell.Tab.0.right" timestamp="1604523060075">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604510346668" />
+    <state width="1235" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604523060074" />
     <state x="1333" y="399" width="1206" height="460" key="GridCell.Tab.1.bottom" timestamp="1604510312589">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -171,14 +232,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1333" y="399" width="1206" height="460" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604510312583" />
+    <state x="357" y="473" width="564" height="456" key="RefactorJ.ExtractClass" timestamp="1604522933812">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="357" y="473" width="564" height="456" key="RefactorJ.ExtractClass/0.0.2560.1400@0.0.2560.1400" timestamp="1604522933812" />
     <state x="141" y="348" key="SettingsEditor" timestamp="1604512087577">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="141" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1604512087577" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1604510946160">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1604512490532">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604510946160" />
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604512490532" />
     <state x="465" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604511178633">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

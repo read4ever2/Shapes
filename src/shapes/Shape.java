@@ -1,5 +1,5 @@
-/*
- * Filename: Shape.java
+package shapes;/*
+ * Filename: shapes.Shape.java
  * Author: Will Feighner
  * Date: 2020 11 04
  * Purpose:
