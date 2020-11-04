@@ -20,7 +20,6 @@ public class ThreeDimensionalShape extends Shape {
   }
 
   static class Sphere extends ThreeDimensionalShape {
-
     public Sphere(double radius) {
       super();
       this.volume = Math.PI * Math.pow(radius, 3) * (4.0 / 3.0);
