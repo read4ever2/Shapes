@@ -12,7 +12,7 @@ package shapes;
 public abstract class Shape {
 
   // Declare instance variables
-  int numberDimensions;
+   private final int numberDimensions;
 
   /**
    * @param numberDimensions -shape dimensions
