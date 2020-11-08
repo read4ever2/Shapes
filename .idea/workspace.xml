@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf8ba83-1de7-4ff7-877c-13463a873a7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Cone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Cone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Cube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shapes/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Shapes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604855055140</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update">
+      <created>1604855827835</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604855827835</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,10 +224,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="370" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604501897549" />
-    <state x="1549" y="269" key="CommitChangelistDialog2" timestamp="1604855054345">
+    <state x="1549" y="269" key="CommitChangelistDialog2" timestamp="1604855826943">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1549" y="269" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1604855054345" />
+    <state x="1549" y="269" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1604855826943" />
     <state x="1799" y="601" key="Github.ShareDialog" timestamp="1603637743882">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -292,10 +296,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="141" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1604855637840" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1604808425464">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1604855829674">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604808425464" />
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604855829674" />
     <state x="465" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604511178633">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
