@@ -11,6 +11,11 @@ package shapes;
 
 class Circle extends TwoDimensionalShape {
 
+  /**
+   *
+   * @param radius - radius
+   */
+
   public Circle(double radius) {
     super();
     this.area = Math.pow(radius, 2) * Math.PI;

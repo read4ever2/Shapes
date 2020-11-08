@@ -11,6 +11,10 @@ package shapes;
 
 class Square extends TwoDimensionalShape {
 
+  /**
+   * @param side -
+   */
+
   // default constructor
   public Square(double side) {
 

@@ -11,6 +11,11 @@ package shapes;
 
 class Rectangle extends TwoDimensionalShape {
 
+  /**
+   * @param length -
+   * @param width  -
+   */
+
   public Rectangle(double length, double width) {
 
     // Calls TwoDimensionalShape constructor

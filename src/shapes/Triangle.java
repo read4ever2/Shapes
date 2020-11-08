@@ -11,6 +11,11 @@ package shapes;
 
 class Triangle extends TwoDimensionalShape {
 
+  /**
+   * @param base -
+   * @param height -
+   */
+
   // Creates Triangle Object
   public Triangle(double base, double height) {
 

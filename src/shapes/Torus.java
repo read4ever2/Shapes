@@ -10,6 +10,12 @@ package shapes;
 // import statements
 
 class Torus extends ThreeDimensionalShape {
+
+  /**
+   * @param majorRadius  -
+   * @param minorRadius -
+   */
+
   public Torus(double majorRadius, double minorRadius) {
 
     // Calls ThreeDimensionalShape constructor
