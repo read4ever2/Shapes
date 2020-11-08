@@ -26,93 +26,85 @@ public class Shapes {
               + "2. Construct a Rectangle\n"
               + "3. Construct a Square\n"
               + "4. Construct a Triangle\n"
-              + "5. Construct a shapes.Sphere\n"
-              + "6. Construct a shapes.Cube\n"
+              + "5. Construct a Sphere\n"
+              + "6. Construct a Cube\n"
               + "7. Construct a Cone\n"
               + "8. Construct a Cylinder\n"
               + "9. Construct a Torus\n"
               + "X. Exit the program\n");
 
-      String selection = scanner.nextLine();
+      Scanner input = new Scanner(System.in);
+
+      String selection = input.nextLine();
 
       switch (selection) {
         case "1" -> {
           System.out.println("You have selected Circle\n");
-          double radius = 0.0;
-          radius = getValue(radius, "What is the radius?");
+          double radius = getValue("What is the radius?");
           Circle circle = new Circle(radius);
-          System.out.printf("The area of the Circle is %f.2%n\n", circle.getArea());
+          System.out.printf("The area of the Circle is %.2f\n", circle.getArea());
           wantContinue();
         }
         case "2" -> {
           System.out.println("You have selected Rectangle\n");
-          double length = 0.0;
-          double width = 0.0;
-          length = getValue(length, "What is the length?");
-          width = getValue(width, "What is the width?");
+          double length = getValue("What is the length?");
+          double width = getValue("What is the width?");
           Rectangle rectangle = new Rectangle(length, width);
-          System.out.println("The area of the Rectangle is " + rectangle.getArea());
+          System.out.printf("The area of the Rectangle is %.2f\n", rectangle.getArea());
           wantContinue();
         }
         case "3" -> {
           System.out.println("You have selected Square\n");
-          double side = 0.0;
-          side = getValue(side, "What is the length of a side?");
+          double side = getValue("What is the length of a side?");
           Square square = new Square(side);
-          System.out.println("The area of the Square is " + square.getArea());
+          System.out.printf("The area of the Square is %.2f\n", square.getArea());
           wantContinue();
         }
         case "4" -> {
           System.out.println("You have selected Triangle\n");
-          System.out.println("What is the base?");
-          double base = 0.0;
-          base = getValue(scanner, validDouble, base, "What is the length of the base?");
-          System.out.println("What is the height?");
-          double height = 0.0;
-          height = getValue(scanner, validDouble, height, "What is the height?");
+          double base = getValue("What is the length of the base?");
+          double height = getValue("What is the height?");
           Triangle triangle = new Triangle(base, height);
-          System.out.println("The area of the Square is " + triangle.getArea());
+          System.out.printf("The area of the Square is %.2f\n", triangle.getArea());
+          wantContinue();
         }
         case "5" -> {
           System.out.println("You have selected Sphere\n");
-          System.out.println("What is the radius?");
-          double radius = scanner.nextDouble();
+          double radius = getValue("What is the radius?");
           Sphere sphere = new Sphere(radius);
-          System.out.println("The volume of the shapes.Sphere is " + sphere.getVolume());
+          System.out.printf("The volume of the Sphere is %.2f\n", sphere.getVolume());
+          wantContinue();
         }
         case "6" -> {
           System.out.println("You have selected Cube\n");
-          System.out.println("What is the length of a side?");
-          double side = scanner.nextDouble();
+          double side = getValue("What is the length of a side?");
           Cube cube = new Cube(side);
-          System.out.println("The volume of the shapes.Cube is " + cube.getVolume());
+          System.out.printf("The volume of the Cube is %.2f\n", cube.getVolume());
+          wantContinue();
         }
         case "7" -> {
           System.out.println("You have selected Cone\n");
-          System.out.println("What is the radius?");
-          double radius = scanner.nextDouble();
-          System.out.println("What is the height?");
-          double height = scanner.nextDouble();
+          double radius = getValue("What is the radius?");
+          double height = getValue("What is the height?");
           Cone cone = new Cone(radius, height);
-          System.out.printf("The volume of the shapes.Cube is %.2f", cone.getVolume());
+          System.out.printf("The volume of the Cone is %.2f\n", cone.getVolume());
+          wantContinue();
         }
         case "8" -> {
           System.out.println("You have selected Cylinder");
-          System.out.println("What is the radius?");
-          double radius = scanner.nextDouble();
-          System.out.println("What is the height?");
-          double height = scanner.nextDouble();
+          double radius = getValue("What is the radius?");
+          double height = getValue("What is the height?");
           Cylinder cylinder = new Cylinder(radius, height);
-          System.out.printf("The volume of the cylinder is %.2f", cylinder.getVolume());
+          System.out.printf("The volume of the cylinder is %.2f\n", cylinder.getVolume());
+          wantContinue();
         }
         case "9" -> {
           System.out.println("You have selected Torus");
-          System.out.println("What is the Major Radius?");
-          double majorRadius = scanner.nextDouble();
-          System.out.println("What is the Minor Radius?");
-          double minorRadius = scanner.nextDouble();
+          double majorRadius = getValue("What is the major radius?");
+          double minorRadius = getValue("What is the minor radius?");
           Torus torus = new Torus(majorRadius, minorRadius);
-          System.out.printf("The volume of the torus is %.2f", torus.getVolume());
+          System.out.printf("The volume of the torus is %.2f\n", torus.getVolume());
+          wantContinue();
         }
         case "X", "x" -> exitLoop = false;
         default -> System.out.println("Invalid Selection. Please select again.");
@@ -126,8 +118,9 @@ public class Shapes {
         + ":" + date.getMinute());
   }
 
-  private static double getValue(double value, String s) {
+  private static double getValue(String s) {
     boolean validDouble = true;
+    double value = 0.0;
     do {
       Scanner scanner = new Scanner(System.in);
       System.out.println(s);
