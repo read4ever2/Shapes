@@ -100,7 +100,7 @@ public class Shapes {
           Triangle triangle = new Triangle(base, height);
 
           // output results
-          System.out.printf("The area of the Square is %.2f\n", triangle.getArea());
+          System.out.printf("The area of the Triangle is %.2f\n", triangle.getArea());
           wantContinue();
         } // end triangle selection
 
