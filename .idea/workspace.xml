@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcf8ba83-1de7-4ff7-877c-13463a873a7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/shapes/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Shapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shapes/ThreeDimensionalShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/ThreeDimensionalShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shapes/Torus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Torus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shapes/TwoDimensionalShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/TwoDimensionalShape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604807900486</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <created>1604808384321</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604808384321</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1604808423928</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604808423928</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,10 +206,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="370" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604501897549" />
-    <state x="1549" y="269" key="CommitChangelistDialog2" timestamp="1604807899613">
+    <state x="1549" y="269" key="CommitChangelistDialog2" timestamp="1604808423119">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1549" y="269" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1604807899613" />
+    <state x="1549" y="269" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1604808423119" />
     <state x="1799" y="601" key="Github.ShareDialog" timestamp="1603637743882">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -200,22 +218,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1739" y="406" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603637750687" />
-    <state width="1235" height="400" key="GridCell.Tab.0.bottom" timestamp="1604807920276">
+    <state width="1235" height="400" key="GridCell.Tab.0.bottom" timestamp="1604808395689">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604807920276" />
-    <state width="1235" height="400" key="GridCell.Tab.0.center" timestamp="1604807920276">
+    <state width="1235" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604808395689" />
+    <state width="1235" height="400" key="GridCell.Tab.0.center" timestamp="1604808395689">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604807920276" />
-    <state width="1235" height="400" key="GridCell.Tab.0.left" timestamp="1604807920276">
+    <state width="1235" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604808395689" />
+    <state width="1235" height="400" key="GridCell.Tab.0.left" timestamp="1604808395689">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604807920276" />
-    <state width="1235" height="400" key="GridCell.Tab.0.right" timestamp="1604807920276">
+    <state width="1235" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604808395689" />
+    <state width="1235" height="400" key="GridCell.Tab.0.right" timestamp="1604808395689">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604807920276" />
+    <state width="1235" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604808395689" />
     <state x="1333" y="399" width="1206" height="460" key="GridCell.Tab.1.bottom" timestamp="1604510312589">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -260,10 +278,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="141" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1604512087577" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1604807902802">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1604808425464">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604807902802" />
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604808425464" />
     <state x="465" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604511178633">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
