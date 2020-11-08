@@ -102,6 +102,10 @@ public class Shapes {
           System.out.println("You have selected Torus");
           double majorRadius = getValue("What is the major radius?");
           double minorRadius = getValue("What is the minor radius?");
+          if (majorRadius < minorRadius) {
+            System.out.println("Major Radius must be larger the minor radius!");
+            continue;
+          }
           Torus torus = new Torus(majorRadius, minorRadius);
           System.out.printf("The volume of the torus is %.2f\n", torus.getVolume());
           wantContinue();
@@ -129,19 +133,20 @@ public class Shapes {
         value = Double.parseDouble(test);
         validDouble = false;
       } else {
-        System.out.println("Invalid Entry. Please enter a decimal value:");
+        System.out.println("Invalid Entry. Please enter a positive decimal value:");
       }
     } while (validDouble);
     return value;
   }
 
   public static boolean isDouble(String input) {
+    double test;
     try {
-      double test = Double.parseDouble(input);
+      test = Double.parseDouble(input);
     } catch (NumberFormatException ignored) {
       return false;
     }
-    return true;
+    return test >= 0.0;
   }
 
   public static void wantContinue() {
