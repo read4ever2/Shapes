@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bcf8ba83-1de7-4ff7-877c-13463a873a7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Cube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shapes/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Shapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Sphere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/ThreeDimensionalShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/ThreeDimensionalShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shapes/TwoDimensionalShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/TwoDimensionalShape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -133,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604523199743</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1604525002782</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604525002782</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,10 +175,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="370" y="450" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604501897549" />
-    <state x="1549" y="269" key="CommitChangelistDialog2" timestamp="1604523198737">
+    <state x="1549" y="269" key="CommitChangelistDialog2" timestamp="1604525001965">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1549" y="269" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1604523198737" />
+    <state x="1549" y="269" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1604525001965" />
     <state x="1799" y="601" key="Github.ShareDialog" timestamp="1603637743882">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -185,22 +187,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1739" y="406" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1603637750687" />
-    <state width="1235" height="400" key="GridCell.Tab.0.bottom" timestamp="1604523060075">
+    <state width="1235" height="400" key="GridCell.Tab.0.bottom" timestamp="1604802363661">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604523060075" />
-    <state width="1235" height="400" key="GridCell.Tab.0.center" timestamp="1604523060074">
+    <state width="1235" height="400" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604802363661" />
+    <state width="1235" height="400" key="GridCell.Tab.0.center" timestamp="1604802363661">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604523060074" />
-    <state width="1235" height="400" key="GridCell.Tab.0.left" timestamp="1604523060074">
+    <state width="1235" height="400" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604802363661" />
+    <state width="1235" height="400" key="GridCell.Tab.0.left" timestamp="1604802363661">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604523060074" />
-    <state width="1235" height="400" key="GridCell.Tab.0.right" timestamp="1604523060075">
+    <state width="1235" height="400" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604802363661" />
+    <state width="1235" height="400" key="GridCell.Tab.0.right" timestamp="1604802363661">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1235" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604523060074" />
+    <state width="1235" height="400" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604802363661" />
     <state x="1333" y="399" width="1206" height="460" key="GridCell.Tab.1.bottom" timestamp="1604510312589">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -237,14 +239,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="357" y="473" width="564" height="456" key="RefactorJ.ExtractClass/0.0.2560.1400@0.0.2560.1400" timestamp="1604522933812" />
+    <state x="455" y="637" key="ReplaceDuplicatesPrompt" timestamp="1604805577568">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="455" y="637" key="ReplaceDuplicatesPrompt/0.0.2560.1400@0.0.2560.1400" timestamp="1604805577568" />
     <state x="141" y="348" key="SettingsEditor" timestamp="1604512087577">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="141" y="348" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1604512087577" />
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1604523311504">
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2" timestamp="1604525005250">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604523311504" />
+    <state x="1512" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1604525005250" />
     <state x="465" y="614" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604511178633">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -253,5 +259,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1333" y="399" width="1220" height="526" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1604510346744" />
+    <state x="370" y="454" key="extract.method.dialog" timestamp="1604805560414">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="370" y="454" key="extract.method.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604805560414" />
   </component>
 </project>
