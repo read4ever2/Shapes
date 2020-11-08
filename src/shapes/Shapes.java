@@ -151,7 +151,6 @@ public class Shapes {
 
   public static void wantContinue() {
     Scanner scanner = new Scanner(System.in);
-    boolean exitLoop = true;
     do {
       System.out.println("Do you want to continue? (Y/N)");
       String input = scanner.nextLine();
@@ -162,13 +161,11 @@ public class Shapes {
             + " " + date.getMonth()
             + " at " + date.getHour()
             + ":" + date.getMinute());
-        exitLoop = false;
         System.exit(0);
       } else if ((input.equals("y") || input.equals("Y"))) {
-        exitLoop = false;
         return;
       }
       System.out.println("Invalid Input.");
-    } while (exitLoop);
+    } while (true);
   }
 }
